@@ -1,0 +1,18 @@
+{
+    "meta": {
+        "page": 1,
+        "total_pages": 4,
+        "per_page": 10,
+        "total_records": 38
+    },
+    "breweries": [
+        {
+            "id": 1234,
+            "name": "Saint Arnold"
+        },
+        {
+            "id": 52892,
+            "name": "Buffalo Bayou"
+        }
+    ]
+}

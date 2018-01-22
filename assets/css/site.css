@@ -1,0 +1,32 @@
+            #toast-container {margin-top: 60px;}
+
+          
+            
+            .panel-heading h3 {
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                line-height: normal;
+                width: 75%;
+                padding-top: 8px;
+            }
+
+            #contacts .panel-body {
+                height: 110px;
+            }
+            
+            
+                        .panel-footer{
+                background-color: inherit;
+                border-color: inherit;
+                color: inherit;
+                border:0px;
+
+            }
+            .page-header H3 {
+                font-size: 36px;
+            }
+
+            .dataTables_empty {
+                display:none;
+            }
