@@ -67,7 +67,7 @@ class ApiLogin extends MY_Controller {
             //if something went wrong, rollback everything
             $this->db->trans_rollback();
             $meta['sucess'] = "no";
-            $meta['token'] = "";
+           // $meta['token'] = "";
 
             $result[0]['error'] = "Error creating user";
             $result[0]['token'] = "";

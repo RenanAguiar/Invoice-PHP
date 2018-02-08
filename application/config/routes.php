@@ -60,7 +60,7 @@ $route['api/sign_up'] = 'api/ApiLogin/sign_up';
 $route['api/clients/all'] = 'api/ApiClient/all';
 $route['api/clients/add'] = 'api/ApiClient/add';
 $route['api/clients/update'] = 'api/ApiClient/update';
-
+$route['api/clients/(:num)/delete'] = 'api/ApiClient/delete/$1';
 
 
 $route['api/contacts/add'] = 'api/ApiContact/add';
@@ -69,10 +69,5 @@ $route['api/contacts/update'] = 'api/ApiContact/update';
 $route['api/contacts/(:num)/delete'] = 'api/ApiContact/delete/$1';
 
     
-
-$route['api/gg'] = 'api/apilogin/gg';
-$route['api/ggg'] = 'api/apilogin/ggg';
-$route['api/gg/(:num)'] = 'api/apilogin/gg/$1';
-
 
 $route['api/contacts/all'] = 'api/ApiContact/all';

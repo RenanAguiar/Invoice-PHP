@@ -73,5 +73,13 @@ class Client_model extends CI_Model {
         $this->db->where('client_id', $data['client_id']);
         return $this->db->update('client', $data);
     }
+    
+    public function delete($client_id) {
+        
+        $this->db->where('client_id', $client_id);
+        $this->db->delete('client');
+        return ($this->db->affected_rows() == 1)? TRUE:FALSE;
+
+    }
 
 }

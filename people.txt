@@ -139,3 +139,764 @@ Array
     [city] => 
     [postal_code] => 
 )
+Array
+(
+    [first_name] => 
+    [last_name] => 
+    [email] => 
+    [phone] => 
+    [client_id] => 60
+)
+Array
+(
+    [first_name] => 
+    [last_name] => 
+    [email] => 
+    [phone] => 
+    [client_id] => 60
+)
+Array
+(
+    [first_name] => 
+    [last_name] => 
+    [email] => 
+    [phone] => 
+    [client_id] => 60
+)
+Array
+(
+    [client_id] => 63
+    [address] => 
+    [province] => gg
+    [name] => Guarana 001
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [address] => 
+    [province] => 
+    [name] => humm
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [client_id] => 60
+    [address] => gg
+    [province] => gg
+    [name] => arroz2 branco2
+    [city] => piracivaba
+    [postal_code] => gg
+)
+Array
+(
+    [client_id] => 60
+    [address] => gg
+    [province] => gg
+    [name] => arroz2 branco2
+    [city] => piracivaba
+    [postal_code] => gg
+)
+Array
+(
+    [address] => 
+    [province] => 
+    [name] => sdfsdfsdfsfsdfs
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [address] => 
+    [province] => 
+    [name] => next blue
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [address] => xxx
+    [province] => 
+    [name] => xxx
+    [city] => xxx
+    [postal_code] => xxx
+)
+Array
+(
+    [address] => 
+    [province] => 
+    [name] => 
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [address] => 
+    [province] => 
+    [name] => 
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [address] => 
+    [province] => 
+    [name] => 
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [address] => 
+    [province] => 
+    [name] => 
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [client_id] => 60
+    [address] => gg
+    [province] => gg
+    [name] => arroz2 branco2
+    [city] => piracivaba
+    [postal_code] => gg
+)
+Array
+(
+    [client_id] => 63
+    [address] => 
+    [province] => gg
+    [name] => Guarana 001
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [client_id] => 63
+    [address] => 
+    [province] => gg
+    [name] => Guarana 0011
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [client_id] => 200
+    [address] => 
+    [province] => 
+    [name] => cervweja
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [client_id] => 198
+    [address] => 
+    [province] => 
+    [name] => wer
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [address] => 
+    [province] => 
+    [name] => dado
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [address] => 
+    [province] => 
+    [name] => coroa
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [client_id] => 209
+    [address] => 
+    [province] => 
+    [name] => coroa 02
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [client_id] => 209
+    [address] => 
+    [province] => 
+    [name] => coroa 022
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [client_id] => 209
+    [address] => 
+    [province] => 
+    [name] => coroa 0223
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [client_id] => 200
+    [address] => 
+    [province] => 
+    [name] => cervweja1
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [client_id] => 200
+    [address] => 
+    [province] => 
+    [name] => cervweja10
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [address] => 
+    [province] => 
+    [name] => carro
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [address] => 
+    [province] => 
+    [name] => casa
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [address] => 
+    [province] => 
+    [name] => cy
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [address] => 
+    [province] => 
+    [name] => bola
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [client_id] => 213
+    [address] => 
+    [province] => 
+    [name] => bola2
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [client_id] => 213
+    [address] => 
+    [province] => 
+    [name] => bola3
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [address] => 
+    [province] => 
+    [name] => anao
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [client_id] => 214
+    [address] => 
+    [province] => 
+    [name] => anao2
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [client_id] => 60
+    [address] => gg
+    [province] => gg
+    [name] => Arroz Branco
+    [city] => piracivaba
+    [postal_code] => gg
+)
+Array
+(
+    [client_id] => 211
+    [address] => 
+    [province] => 
+    [name] => casa verde
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [client_id] => 214
+    [address] => 
+    [province] => 
+    [name] => anao2
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [client_id] => 60
+    [address] => gg
+    [province] => gg
+    [name] => Arroz Brancoc
+    [city] => piracivaba
+    [postal_code] => gg
+)
+Array
+(
+    [address] => 
+    [province] => 
+    [name] => i
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [client_id] => 60
+    [address] => gg
+    [province] => gg
+    [name] => Arroz Brancocx
+    [city] => piracivaba
+    [postal_code] => gg
+)
+Array
+(
+    [client_id] => 60
+    [address] => gg
+    [province] => gg
+    [name] => Arroz Branco
+    [city] => piracivaba
+    [postal_code] => gg
+)
+Array
+(
+    [client_id] => 60
+    [address] => gg
+    [province] => gg
+    [name] => Arroz Branco2
+    [city] => piracivaba
+    [postal_code] => gg
+)
+Array
+(
+    [client_id] => 60
+    [address] => gg
+    [province] => gg
+    [name] => Arroz Branco22
+    [city] => piracivaba
+    [postal_code] => gg
+)
+Array
+(
+    [client_id] => 60
+    [address] => gg
+    [province] => gg
+    [name] => Arroz Branco
+    [city] => piracivaba
+    [postal_code] => gg
+)
+Array
+(
+    [address] => 
+    [province] => 
+    [name] => aleluia
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [address] => 
+    [province] => 
+    [name] => auto
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [address] => 
+    [province] => 
+    [name] => aaa
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [address] => 
+    [province] => 
+    [name] => a123
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [client_id] => 60
+    [address] => gg
+    [province] => gg
+    [name] => Arroz Brancoe
+    [city] => piracivaba
+    [postal_code] => gg
+)
+Array
+(
+    [client_id] => 60
+    [address] => gg
+    [province] => gg
+    [name] => bArroz Brancoe
+    [city] => piracivaba
+    [postal_code] => gg
+)
+Array
+(
+    [address] => 
+    [province] => 
+    [name] => algodao
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [address] => 
+    [province] => 
+    [name] => amor
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [address] => 
+    [province] => 
+    [name] => elefante
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [client_id] => 222
+    [address] => 
+    [province] => 
+    [name] => elefante
+    [city] => 
+    [postal_code] => vv
+)
+Array
+(
+    [client_id] => 222
+    [address] => 
+    [province] => 
+    [name] => elefante
+    [city] => xxyy
+    [postal_code] => vv
+)
+Array
+(
+    [first_name] => dddddd
+    [last_name] => dddd
+    [email] => did
+    [phone] => dddd
+    [client_id] => 60
+)
+Array
+(
+    [client_id] => 63
+    [address] => 
+    [province] => gg
+    [name] => Guarana 0011
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [address] => 
+    [province] => 
+    [name] => ooo
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [client_id] => 223
+    [address] => 
+    [province] => 
+    [name] => ooo3
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [address] => 
+    [province] => 
+    [name] => gui
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [client_id] => 224
+    [address] => 
+    [province] => 
+    [name] => gui2
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [address] => 
+    [province] => 
+    [name] => 333
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [address] => 
+    [province] => 
+    [name] => 222
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [client_id] => 224
+    [address] => 
+    [province] => 
+    [name] => gui25
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [client_id] => 225
+    [address] => 
+    [province] => 
+    [name] => 3331
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [client_id] => 224
+    [address] => 
+    [province] => 
+    [name] => gui256
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [client_id] => 226
+    [address] => 
+    [province] => 
+    [name] => 2221
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [client_id] => 225
+    [address] => 
+    [province] => 
+    [name] => 33310
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [client_id] => 226
+    [address] => 
+    [province] => 
+    [name] => 22210
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [client_id] => 225
+    [address] => 
+    [province] => 
+    [name] => 333100
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [address] => 
+    [province] => 
+    [name] => 111
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [client_id] => 227
+    [address] => 
+    [province] => 
+    [name] => 1115
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [address] => 
+    [province] => 
+    [name] => 999
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [address] => 
+    [province] => 
+    [name] => ooo
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [address] => 
+    [province] => 
+    [name] => uiouio
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [address] => 
+    [province] => 
+    [name] => ooo
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [address] => 
+    [province] => 
+    [name] => ooooo
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [address] => 
+    [province] => 
+    [name] => ooooooooooo
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [address] => 
+    [province] => 
+    [name] => fff
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [address] => 
+    [province] => 
+    [name] => ffffff
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [address] => 
+    [province] => 
+    [name] => aaa
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [address] => 
+    [province] => 
+    [name] => bbb
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [address] => 
+    [province] => 
+    [name] => ooo
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [address] => 
+    [province] => 
+    [name] => ccc
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [address] => 
+    [province] => 
+    [name] => aaa
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [address] => 
+    [province] => 
+    [name] => arroz
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [client_id] => 241
+    [address] => 
+    [province] => 
+    [name] => arroz2
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [address] => 
+    [province] => 
+    [name] => arara
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [address] => 
+    [province] => 
+    [name] => renan
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [address] => 
+    [province] => 
+    [name] => rosa
+    [city] => 
+    [postal_code] => 
+)
