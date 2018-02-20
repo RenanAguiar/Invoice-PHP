@@ -107,7 +107,7 @@ class Invoice extends Auth_controller {
 
     private function _set_client($client_id)
     {
-        $client = $this->client_model->get_client($client_id);
+        $client = (object)$this->client_model->get_client($client_id)[0];
 
         if ($client === NULL)
         {

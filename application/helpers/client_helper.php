@@ -19,7 +19,7 @@ if (!function_exists('get_client'))
             show_error('Client not found', 404, '');
         }
 
-        if ($CI->user_id != $client->user_id)
+        if ($CI->user_id != $client[0]["user_id"])
         {
             show_error('Not Allowed', 403, '');
         }

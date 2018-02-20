@@ -30,7 +30,7 @@ class Client extends Auth_controller {
      */
     public function details($client_id)
     {
-        $client = get_client($client_id);
+        $client = get_client($client_id)[0];
 
         if ($this->session->flashdata('success') === TRUE)
         {
