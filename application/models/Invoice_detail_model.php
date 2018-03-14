@@ -38,7 +38,17 @@ class Invoice_detail_model extends CI_Model {
     {
         $this->db->where('invoice_id', $invoice_id);
         $query = $this->db->get('invoice_item');
-        return $query->result_array();
+        
+                $items = $query->result_array();
+        foreach ($items as &$item)
+        {
+            $item["invoice_detail_id"] = (int)$item["invoice_detail_id"];
+             $item["invoice_id"] = (int)$item["invoice_id"];
+             $item["unit_price"] = (double)$item["unit_price"];
+             $item["quantity"] = (double)$item["quantity"];
+        }
+        return $items;
+       // return $query->result_array();
     }
 
     public function get_invoice_detail($user_id, $client_id)
@@ -86,7 +96,7 @@ class Invoice_detail_model extends CI_Model {
         return $total_line;
     }
 
-    public function update($invoice_id, $invoice_detail_id, $description, $quantity, $unit_price)
+    public function update($invoice_detail_id, $invoice_id, $description, $quantity, $unit_price)
     {
 
         $data = array(
@@ -101,12 +111,13 @@ class Invoice_detail_model extends CI_Model {
         return $this->db->update('invoice_item', $data);
     }
 
-    public function delete($invoice_id, $invoice_detail_id)
+    public function delete($invoice_detail_id)
     {
 
         $this->db->where('invoice_detail_id', $invoice_detail_id);
-        $this->db->where('invoice_id', $invoice_id);
-        $this->db->delete('invoice_item');
+       // $this->db->where('invoice_id', $invoice_id);
+        return $this->db->delete('invoice_item');
     }
 
 }
+

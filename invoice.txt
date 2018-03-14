@@ -1,0 +1,10 @@
+Array
+(
+    [address] => 107 6630 sussex ave
+    [phone] => 6044454485
+    [city] => Burnaby
+    [postal_code] => v5h 3c
+    [tax] => 7.25
+    [name] => RCA Computers2s
+    [province] => NL
+)

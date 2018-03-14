@@ -17,6 +17,7 @@ class Invoice_model extends CI_Model {
     function __construct()
     {
         parent::__construct();
+        $this->load->model('invoice_detail_model');
     }
 
     function get_invoices($client_id)
@@ -28,10 +29,37 @@ class Invoice_model extends CI_Model {
         foreach ($invoices as &$invoice)
         {
             $invoice['invoice_number'] = $this->get_invoice_number($invoice);
+            $invoice["invoice_id"] = (int)$invoice["invoice_id"];
+            $invoice["client_id"] = (int)$invoice["client_id"];
+            $invoice["voided"] = (int)$invoice["voided"];        
+            $invoice["tax"] = (double)$invoice["tax"];
+            $invoice["amount_paid"] = (int)$invoice["amount_paid"];
+            $invoice["items"] = $this->invoice_detail_model->get_invoice_details($invoice["invoice_id"]);
+            $invoice["status"] = self::getStatus($invoice);
         }
 
 
         return $invoices;
+    }
+
+    public function getStatus($invoice) {
+        $status = "Draft";
+        
+        if($invoice["voided"] === 1) {
+            $status = "Voided";
+        }
+        
+        if($invoice["date_sent"] !== NULL) {
+            $status = "Sent";
+        }
+        
+        if($invoice["date_transaction"] !== NULL) {
+            $status = "Paid";
+        }
+        
+
+        	
+        return $status;
     }
 
     public function get_invoice($invoice_id)
@@ -43,7 +71,18 @@ class Invoice_model extends CI_Model {
         $row = $query->row();
         if ($row)
         {
+            //$row->invoice_number = $this->get_invoice_number((array) $row);
+
+            
             $row->invoice_number = $this->get_invoice_number((array) $row);
+            $row->invoice_id = (int)$row->invoice_id;
+            $row->client_id = (int)$row->client_id;
+            $row->voided = (int)$row->voided;
+            $row->tax = (int)$row->tax;
+            $row->amount_paid = (int)$row->amount_paid;
+            $row->items = $this->invoice_detail_model->get_invoice_details($row->invoice_id);
+            $row->status = self::getStatus((array) $row);
+            
         }
 
         return $row;

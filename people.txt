@@ -15,3 +15,90 @@ Array
     [phone] => qqq
     [first_name] => qqqqq
 )
+Array
+(
+    [client_id] => 260
+    [address] => asdfsdfsdf
+    [province] => BC
+    [name] => 123vdfsdf
+    [city] => bsdfsdfsdf
+    [postal_code] => csdfdsf
+)
+Array
+(
+    [client_id] => 260
+    [address] => asdfsdfsdf
+    [province] => BC
+    [name] => 123vdfsdf
+    [city] => bsdfsdfsdf
+    [postal_code] => csdfdsf
+)
+Array
+(
+    [client_id] => 260
+    [address] => asdfsdfsdf
+    [province] => MB
+    [name] => 123vdfsdf
+    [city] => bsdfsdfsdf
+    [postal_code] => csdfds
+)
+Array
+(
+    [address] => 
+    [province] => 
+    [name] => 
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [address] => 
+    [province] => NL
+    [name] => oli
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [client_id] => 60
+    [address] => some street
+    [province] => gg
+    [name] => Abc MacDon
+    [city] => x
+    [postal_code] => g5g4h4
+)
+Array
+(
+    [client_id] => 60
+    [address] => some street
+    [province] => BC
+    [name] => Abc MacDon
+    [city] => x
+    [postal_code] => g5g4h4
+)
+Array
+(
+    [client_id] => 60
+    [address] => some street
+    [province] => YT
+    [name] => Abc MacDon
+    [city] => x
+    [postal_code] => g5g4h4
+)
+Array
+(
+    [address] => 
+    [province] => 
+    [name] => 
+    [city] => 
+    [postal_code] => 
+)
+Array
+(
+    [client_id] => 260
+    [address] => asdfsdfsdf
+    [province] => MB
+    [name] => 123vdfsdf
+    [city] => bsdfsdfsdf
+    [postal_code] => csdfds
+)

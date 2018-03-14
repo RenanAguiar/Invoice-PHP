@@ -24,11 +24,36 @@ class Profile_model extends CI_Model {
     public function get_profile($user_id)
     {
 
-        $sql = "SELECT * FROM profile WHERE user_id = ?";
-
-        $query = $this->db->query($sql, array($user_id));
-        $row = $query->row();
-        return $row;
+//        $sql = "SELECT * FROM profile WHERE user_id = ?";
+//
+//        $query = $this->db->query($sql, array($user_id));
+//        $row = $query->row();
+//        return $row;
+        
+        
+        
+        
+        
+                $this->db->where('user_id', $user_id);
+        $query = $this->db->get('profile');
+        
+               // $item = $query->result_array();
+                $item =  $query->row_array();
+               
+                
+//        foreach ($items as &$item)
+//        {
+//            $item["invoice_detail_id"] = (int)$item["invoice_detail_id"];
+//             $item["invoice_id"] = (int)$item["invoice_id"];
+//             $item["unit_price"] = (double)$item["unit_price"];
+//             $item["quantity"] = (double)$item["quantity"];
+//        }
+               $item["tax"] = (double)$item["tax"];
+               // $item->tax =  (double)$item->tax;
+        return $item;
+        
+        
+        
     }
 
     //public function create($user_id, $name, $postal_code, $province, $city, $address)
@@ -61,7 +86,7 @@ class Profile_model extends CI_Model {
             'province' => $province,
             'city' => $city,
             'address' => $address,
-            'gst' => $gst,
+            'tax' => $gst,
             'last_update' => NULL
         );
 

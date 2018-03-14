@@ -65,9 +65,24 @@ $route['api/clients/(:num)/delete'] = 'api/ApiClient/delete/$1';
 
 $route['api/contacts/add'] = 'api/ApiContact/add';
 $route['api/contacts/update'] = 'api/ApiContact/update';
-
 $route['api/contacts/(:num)/delete'] = 'api/ApiContact/delete/$1';
-
-    
-
 $route['api/contacts/all'] = 'api/ApiContact/all';
+
+
+$route['api/invoices/all'] = 'api/ApiInvoice/all';
+$route['api/invoices/add'] = 'api/ApiInvoice/add';
+$route['api/invoices/update'] = 'api/ApiInvoice/update';
+
+
+
+$route['api/invoices/add/item'] = 'api/ApiInvoice/create_item';
+$route['api/invoices/add/update'] = 'api/ApiInvoice/update';
+$route['api/invoices/update/item'] = 'api/ApiInvoice/update_item';
+$route['api/invoices/items/(:num)/delete'] = 'api/ApiInvoice/delete_item/$1';
+$route['api/invoices/make_payment'] = 'api/ApiInvoice/make_payment';
+$route['api/invoices/void_invoice'] = 'api/ApiInvoice/void_invoice';
+
+
+
+$route['api/profile/get'] = 'api/ApiProfile/get';
+$route['api/profile/update'] = 'api/ApiProfile/update';
